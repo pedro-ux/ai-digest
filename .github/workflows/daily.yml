@@ -1,0 +1,52 @@
+name: Daily AI Digest
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # 8am UTC = 9am Lisbon (adjusts ~1h with DST)
+  workflow_dispatch:       # manual "Run workflow" button in GitHub UI
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Clone follow-builders
+        run: git clone https://github.com/zarazhangrui/follow-builders.git /tmp/follow-builders
+
+      - name: Install follow-builders dependencies
+        run: cd /tmp/follow-builders/scripts && npm install
+
+      - name: Copy generate-slides.js
+        run: cp scripts/generate-slides.js /tmp/follow-builders/scripts/generate-slides.js
+
+      - name: Generate slide deck
+        run: |
+          cd /tmp/follow-builders/scripts
+          node prepare-digest.js 2>/dev/null | node generate-slides.js
+          cp ~/.follow-builders/digest-latest.html $GITHUB_WORKSPACE/index.html
+
+      - name: Commit and push index.html
+        run: |
+          git config user.name "AI Digest Bot"
+          git config user.email "bot@ai-digest.local"
+          git add index.html
+          git diff --staged --quiet || git commit -m "digest: $(date +%Y-%m-%d)"
+          git push
+
+      - name: Send Telegram notification
+        run: |
+          curl -s -X POST \
+            "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
+            --data-urlencode "text=☀️ Your AI Builders Digest is ready:
+          https://pedro-ux.github.io/ai-digest"
