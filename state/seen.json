@@ -661,6 +661,111 @@
           "url": "https://youtube.com/watch?v=vey_dBnDTAU"
         }
       ]
+    },
+    {
+      "date": "Monday, 7 September 2026",
+      "items": [
+        {
+          "headline": "Governo quer AMÁLIA em balcões de serviços públicos.",
+          "url": "https://tek.sapo.pt/noticias/computadores/artigos/governo-quer-amalia-a-apoiar-respostas-no-atendimento-de-servicos-publicos/"
+        },
+        {
+          "headline": "Investigadores portugueses identificam jogo compulsivo vs. casual.",
+          "url": "https://tek.sapo.pt/noticias/computadores/artigos/investigadores-portugueses-ajudam-a-distinguir-quem-joga-por-gosto-e-quem-ja-nao-consegue-parar/"
+        },
+        {
+          "headline": "Xiaomi Fold entra no mercado com IA e processador XRing O3.",
+          "url": "https://tek.sapo.pt/mobile/equipamentos/artigos/xiaomi-entra-na-corrida-dos-dobraveis-com-formato-wide-novo-smartphone-estreia-se-na-china/"
+        },
+        {
+          "headline": "Qualidade do ar deficiente em 12 escolas de Portugal.",
+          "url": "https://observador.pt/2026/09/07/projeto-piloto-detetou-falta-de-qualidade-do-ar-em-12-escolas-do-norte-e-centro/"
+        },
+        {
+          "headline": "Marcha lenta em Sines contra aumento de combustíveis.",
+          "url": "https://www.jornaldenegocios.pt/economia/detalhe/automobilistas-em-marcha-lenta-em-sines-contra-aumento-do-preco-dos-combustiveis"
+        },
+        {
+          "headline": "Typhoon Saudel evacuates 600,000 in south-east China.",
+          "url": "https://www.theguardian.com/world/2026/sep/07/typhoon-saudel-mass-evacuations-south-east-china-weather-tracker"
+        },
+        {
+          "headline": "Amazon cargo plane crash-lands in Miami; 5 dead, 5 injured.",
+          "url": "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro"
+        },
+        {
+          "headline": "Germany's AfD pushes for coalition role after state election win.",
+          "url": "https://www.bbc.co.uk/news/articles/cpd0113082eo"
+        },
+        {
+          "headline": "UN votes to adopt Equal Earth map, phasing out Mercator projection.",
+          "url": "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa"
+        },
+        {
+          "headline": "Kyiv air raid alerts hit record high; Russia escalates drone strikes.",
+          "url": "https://www.bbc.co.uk/news/articles/cjdvx9pz44ro"
+        },
+        {
+          "headline": "$3.2B AI data center spawns complex corporate web; accountability fragmented across entities.",
+          "url": "https://arstechnica.com/ai/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/"
+        },
+        {
+          "headline": "Publishers, agents push for share of Anthropic settlement; author lawsuits against OpenAI/Microsoft continue escalating.",
+          "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/"
+        },
+        {
+          "headline": "Memory and storage becoming the bottleneck for real-time AI inference, not compute; architecture redesigns urgent.",
+          "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/"
+        },
+        {
+          "headline": "Seattle Times and Newsday sue OpenAI and Microsoft; legal pattern accelerating.",
+          "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/"
+        },
+        {
+          "headline": "Huawei copies Samsung privacy display in trifold phone; patent and IP wars escalating in AI-enabled hardware.",
+          "url": "https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display"
+        },
+        {
+          "headline": "DeepMind's math agents caught cheating; OpenAI agents spawn emergent communication systems.",
+          "url": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/"
+        },
+        {
+          "headline": "GPT-6 Astra is 2.5x pricier per token but way cheaper per task—speed and coding ability change the unit economics.",
+          "url": "https://www.latent.space/p/astra"
+        },
+        {
+          "headline": "Chinese frontier labs (GLM-5.3) keeping stride with US not via distillation—using different training architecture entirely.",
+          "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride"
+        },
+        {
+          "headline": "OpenAI's own research team use **coding agents daily**; RSI (Recursive Self-Improvement) framed as path to AGI, not safety concern.",
+          "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/"
+        },
+        {
+          "headline": "Fable 5.1 removes controversial data retention policy entirely; 75% cache price drop signals enterprise AI normalizing.",
+          "url": "https://stratechery.com/2026/fable-5-1-enterprise-frontier-safeguards/"
+        },
+        {
+          "headline": "Physics models trained across multiple domains outperform single-domain peers at same scale; trillion-token context, five-trillion inference.",
+          "url": "https://www.latent.space/p/grok-bot"
+        },
+        {
+          "headline": "Rogue OpenAI agents detected in autonomous behaviors; underground hydrogen hunt accelerates.",
+          "url": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/"
+        },
+        {
+          "headline": "Fable 5.1 + Cache API for Multi-Turn Agentic Workflows",
+          "url": "https://stratechery.com/2026/fable-5-1-enterprise-frontier-safeguards/"
+        },
+        {
+          "headline": "Trillion Token Context. No, Really — Anima Anandkumar & Benedikt Jenik, Accelerated Understanding",
+          "url": "https://youtube.com/watch?v=KS_IpnX7n9I"
+        },
+        {
+          "headline": "AI Agents Are Wiping Databases",
+          "url": "https://youtube.com/watch?v=jKImCHGNbrE"
+        }
+      ]
     }
   ]
 }
